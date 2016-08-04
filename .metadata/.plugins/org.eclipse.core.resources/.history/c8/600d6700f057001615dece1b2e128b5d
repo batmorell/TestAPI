@@ -1,0 +1,5 @@
+package org.api.webservices;
+
+@WebService()
+public class HelloWorld {
+}

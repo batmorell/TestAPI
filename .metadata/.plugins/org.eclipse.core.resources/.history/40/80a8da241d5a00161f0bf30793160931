@@ -1,0 +1,21 @@
+package org.manager;
+
+import org.bo.Prospect;
+import org.utils.TechniqueException;
+
+import java.io.Serializable;
+import java.sql.Statement;
+
+public class ProspectManager extends Manager implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
+    public int insertProspect(Prospect pProspect) throws TechniqueException {
+        return update(
+                "INSERT INTO prospects(name, firstname, mail)"
+                        + "VALUES (?,?,?)",
+                lPreparedStatement -> {
+                    pProspect.mapOut(lPreparedStatement);
+                }, Statement.RETURN_GENERATED_KEYS);
+    }
+}
