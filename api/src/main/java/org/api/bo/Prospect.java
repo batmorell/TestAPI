@@ -27,10 +27,10 @@ public class Prospect implements JSONAble {
 
     public static Prospect mapIn(ResultSet pResultSet) throws SQLException {
         Prospect lProspect = new Prospect();
-        lProspect.id = pResultSet.getInt("idBatiment");
-        lProspect.name = pResultSet.getString("nom");
-        lProspect.firstname = pResultSet.getString("codePostal");
-        lProspect.email = pResultSet.getString("adresse");
+        lProspect.id = pResultSet.getInt("id");
+        lProspect.name = pResultSet.getString("name");
+        lProspect.firstname = pResultSet.getString("firstname");
+        lProspect.email = pResultSet.getString("mail");
 
         return lProspect;
     }

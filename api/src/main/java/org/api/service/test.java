@@ -1,4 +1,4 @@
-package org.service;
+package org.api.service;
 
 import javax.enterprise.context.RequestScoped;
 import javax.ws.rs.Consumes;
@@ -14,8 +14,7 @@ import javax.ws.rs.core.Response;
 import org.api.utils.TechniqueException;
 import org.api.manager.Manager;
 
-@RequestScoped
-@Path("")
+@Path("/route")
 @Produces(MediaType.TEXT_PLAIN)
 @Consumes({ "application/xml", "application/json" })
 public class test extends Manager{
@@ -23,13 +22,12 @@ public class test extends Manager{
 	@GET
 	@Path("/")
 	public String getAString() throws TechniqueException {
-		
-		return select("SELECT * FROM users", null, lResultSet -> {
-			if (lResultSet.next()){
-				return lResultSet.getString("name");
-			}
-			return "error";
-		});
+			return "Success";
+	}
 
+	@GET
+	@Path("/route")
+	public String getARoute() throws TechniqueException {
+		return "route 2";
 	}
 }

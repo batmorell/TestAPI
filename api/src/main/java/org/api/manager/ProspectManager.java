@@ -3,14 +3,14 @@ package org.api.manager;
 import org.api.bo.Prospect;
 import org.api.utils.TechniqueException;
 
-import javax.enterprise.inject.Model;
 import java.io.Serializable;
 import java.sql.Statement;
 
-@Model
+import org.api.manager.Manager;
+
 public class ProspectManager extends Manager {
 
-     public int insertProspect(Prospect pProspect) throws TechniqueException {
+    public int insertProspect(Prospect pProspect) throws TechniqueException {
         return update(
                 "INSERT INTO prospects(name, firstname, mail)"
                         + "VALUES (?,?,?)",

@@ -7,16 +7,16 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+
 import javax.annotation.Resource;
 import javax.sql.DataSource;
 
 import org.api.utils.TechniqueException;
 
-public abstract class Manager {
+public abstract class Manager implements Serializable{
 
-	@Resource(
-			mappedName = "java:/devcommercial")
-	protected DataSource mDataSource;
+	@Resource(mappedName = "java:/devcommercial-datasource")
+	private DataSource mDataSource;
 
 	protected interface Preparator<P> {
 		void invoke(P p) throws SQLException;
