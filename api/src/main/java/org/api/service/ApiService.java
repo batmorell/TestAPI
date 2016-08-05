@@ -20,6 +20,8 @@ import javax.ws.rs.core.HttpHeaders;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
+
+import org.api.bo.User;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -32,6 +34,34 @@ import org.api.utils.TechniqueException;
 @Consumes(MediaType.APPLICATION_JSON)
 @Produces(MediaType.APPLICATION_JSON + ";charset=UTF-8")
 public abstract class ApiService {
+
+    protected User mRequester;
+
+    @AroundInvoke
+    private Object intercept(InvocationContext ctx) {
+        long start = new Date().getTime();
+        try {
+            if (ctx.getParameters() != null && ctx.getParameters().length > 0
+                    && ctx.getParameters()[0] instanceof HttpHeaders) {
+                HttpHeaders lHeaders = (HttpHeaders) ctx.getParameters()[0];
+                String lToken = lHeaders.getRequestHeaders().getFirst("authToken");
+
+                /*if (lToken != null) {
+                    try {
+                        mRequester = mBasicUserManager.getUserFromExistingAuthToken(lToken);
+                    } catch (TechniqueException ex) {
+                        return internalError(ex);
+                    }
+                }*/
+            }
+            return ctx.proceed();
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            return internalError(new TechniqueException());
+        } finally {
+            traceAppel(ctx, new Date().getTime() - start);
+        }
+    }
 
     private void traceAppel(InvocationContext ctx, long length) {
 
