@@ -1,6 +1,3 @@
-/**
- * Created by Baptiste on 06/08/2016.
- */
 mainApp.service('RqstSrv', ['$http', '$rootScope', '$q', function($http, $rootScope, $q) {
     var rqstService = {};
     var baseConf = {

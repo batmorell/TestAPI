@@ -10,15 +10,6 @@
             <h4>Information sur le contact</h4>
             <form>
                 <div class="input-field col s6">
-                    <label>Materialize Select</label>
-                    <select data-ng-model="prospect.statut">
-                        <option value="">Choose your option</option>
-                        <option value="1">Option 1</option>
-                        <option value="2">Option 2</option>
-                        <option value="3">Option 3</option>
-                    </select>
-                </div>
-                <div class="input-field col s6">
                     <input placeholder="Prénom" id="first_name" type="text" class="validate" ng-model="prospect.prenom" disabled>
                     <label class="active" for="first_name">Nom</label>
                 </div>
@@ -69,12 +60,6 @@
                     </div>
 
             </form>
-            <div class="input-field col s6">
-                <select>
-                    <option data-ng-repeat="option in input.statuts.option" value="{{option.id}}">{{option.value}}</option>
-                </select>
-                <label>Statut</label>
-            </div>
         </div>
         <div class="row" data-ng-show="editMode">
             <div class="col-xs-12">

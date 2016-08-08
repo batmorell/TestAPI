@@ -9,13 +9,21 @@ var mainApp = angular.module('mainApp', [
 mainApp.config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider
         .state('dashboard', {
-            url: "/",
+            url: "/dashboard",
             views: {
                 'main': {
                     templateUrl: 'templates/dashboard.html',
                     controller: 'dashboardCtrl'
                 }
             }
+        }).state('login', {
+        url: "/",
+        views: {
+            'main': {
+                templateUrl: 'templates/login.html',
+                controller: 'loginCtrl'
+            }
+        }
         }).state('detail', {
         url: "/detail/:id",
         views: {
@@ -33,7 +41,7 @@ mainApp.config(function ($stateProvider, $urlRouterProvider) {
             }
         }
         }).state('test', {
-        url: "/test,
+        url: "/test",
         views: {
             'main': {
                 templateUrl: 'templates/test.html',
