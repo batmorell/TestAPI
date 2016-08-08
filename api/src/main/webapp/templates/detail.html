@@ -1,0 +1,88 @@
+<div class="col-xs-12">
+    <h3>Detail pour {{prospect.entreprise}} {{prospect.statut}}</h3>
+    <div class="card container-fluid">
+        <div class="row" data-ng-show="!editMode">
+            <div class="col-xs-12">
+                <button data-ng-click="edit()" class="btn btn-primary pull-right"><span  class="glyphicon glyphicon-edit" aria-hidden="true">Éditer</span></button>
+            </div>
+        </div>
+        <div class="row">
+            <h4>Information sur le contact</h4>
+            <form>
+                <div class="input-field col s6">
+                    <label>Materialize Select</label>
+                    <select data-ng-model="prospect.statut">
+                        <option value="">Choose your option</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                    </select>
+                </div>
+                <div class="input-field col s6">
+                    <input placeholder="Prénom" id="first_name" type="text" class="validate" ng-model="prospect.prenom" disabled>
+                    <label class="active" for="first_name">Nom</label>
+                </div>
+                <div class="input-field col s6">
+                    <input placeholder="Nom" id="last_name" type="text" class="validate" ng-model="prospect.nom" disabled>
+                    <label class="active" for="last_name">Prénom</label>
+                </div>
+                <div class="input-field col s6">
+                    <input placeholder="Fonction de l'interlocuteur" id="function" type="text" class="validate" ng-model="prospect.fonction" disabled>
+                    <label class="active" for="function">Fonction</label>
+                </div>
+                <div class="input-field col s6">
+                    <input placeholder="Téléphone de l'interlocuteur" id="phone" type="text" class="validate" ng-model="prospect.telephone" disabled>
+                    <label class="active" for="phone">Téléphone</label>
+                </div>
+                <div class="input-field col s6">
+                    <input placeholder="Email" id="email" type="email" class="validate" ng-model="prospect.email" disabled>
+                    <label class="active" for="email">Email</label>
+                </div>
+            </form>
+        </div>
+        <div class="row">
+            <h4>Information sur l'entreprise</h4>
+            <form>
+                    <div class="input-field col s6">
+                        <input placeholder="Entreprise" id="entreprise" type="text" class="validate" ng-model="prospect.entreprise" disabled>
+                        <label class="active" for="entreprise">Entreprise</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input placeholder="Secteur d'activité" id="secteur" type="text" class="validate" ng-model="prospect.secteur" disabled>
+                        <label class="active" for="secteur">Secteur</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input placeholder="Adresse de l'entreprise" id="adresse" type="text" class="validate" ng-model="prospect.adresse" disabled>
+                        <label class="active" for="adresse">Adresse</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input placeholder="Provenace du prospect" id="source" type="text" class="validate" ng-model="prospect.provenance" disabled>
+                        <label class="active" for="source">Provenance</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <textarea id="description" class="validate materialize-textarea" ng-model="prospect.description" disabled></textarea>
+                        <label class="active">Description du besoin</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <textarea id="other" class="validate materialize-textarea" ng-model="prospect.autre" disabled></textarea>
+                        <label class="active">Autre</label>
+                    </div>
+
+            </form>
+            <div class="input-field col s6">
+                <select>
+                    <option data-ng-repeat="option in input.statuts.option" value="{{option.id}}">{{option.value}}</option>
+                </select>
+                <label>Statut</label>
+            </div>
+        </div>
+        <div class="row" data-ng-show="editMode">
+            <div class="col-xs-12">
+                <button class="btn btn-danger" data-ng-click="cancel()">Annuler</button>
+                <button class="btn btn-success pull-right" data-ng-click="save()">Sauvegarder</button>
+            </div>
+        </div>
+
+    </div>
+
+</div>

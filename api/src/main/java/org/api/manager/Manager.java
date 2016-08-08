@@ -15,7 +15,7 @@ import org.api.utils.TechniqueException;
 
 public abstract class Manager implements Serializable{
 
-	@Resource(mappedName = "java:/devcommercial-datasource")
+	@Resource(mappedName = "java:/mydb")
 	private DataSource mDataSource;
 
 	protected interface Preparator<P> {

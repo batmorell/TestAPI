@@ -11,6 +11,7 @@ import javax.inject.Inject;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.util.List;
 
 
 @Path("/prospect")
@@ -21,7 +22,7 @@ public class ProspectService extends ApiService{
     @Inject
     private ProspectManager mProspectManager ;
 
-/*    @POST
+    @POST
     @Path("/")
     @Consumes(MediaType.APPLICATION_JSON)
     public void postAProspect(ProspectDTO pProspectDTO) throws TechniqueException {
@@ -32,7 +33,20 @@ public class ProspectService extends ApiService{
             e.printStackTrace();
         }
 
-    }*/
+    }
+
+    @PUT
+    @Path("/")
+    @Consumes(MediaType.APPLICATION_JSON)
+    public void updateAProspect(ProspectDTO pProspectDTO) throws TechniqueException {
+        try {
+            Prospect lProspect = Prospect.createProspectFromDTO(pProspectDTO);
+            mProspectManager.updateProspect(lProspect);
+        }catch (TechniqueException e) {
+            e.printStackTrace();
+        }
+
+    }
 
     @GET
     @Path("/{id}")
@@ -41,4 +55,14 @@ public class ProspectService extends ApiService{
         Prospect lProspect =  mProspectManager.getProspectFromId(pId);
         return wrapResponse(lProspect);
     }
+
+    @GET
+    @Path("/")
+    @Consumes(MediaType.APPLICATION_JSON)
+    public Response getListOfProspects() throws TechniqueException {
+        List<Prospect> lProspect =  mProspectManager.getListOfProspects();
+        return wrapJSONAbleResponse(lProspect);
+    }
+
+
 }
