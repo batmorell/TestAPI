@@ -2,253 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="362b23a6-fd01-4d54-9e52-3fe414e6c281" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/src/main/java/org/api/dto/SelectOptionDTO.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/angular-route.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/src/main/webapp/templates/slider.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/src/main/webapp/templates/userDetail.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/js/controllers/loginCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/bin/materialize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/bin/materialize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/dist/css/materialize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/dist/css/materialize.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/dist/fonts/roboto/Roboto-Bold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/dist/fonts/roboto/Roboto-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/dist/fonts/roboto/Roboto-Bold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/dist/fonts/roboto/Roboto-Bold.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/dist/fonts/roboto/Roboto-Light.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/dist/fonts/roboto/Roboto-Light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/dist/fonts/roboto/Roboto-Light.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/dist/fonts/roboto/Roboto-Light.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/dist/fonts/roboto/Roboto-Medium.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/dist/fonts/roboto/Roboto-Medium.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/dist/fonts/roboto/Roboto-Medium.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/dist/fonts/roboto/Roboto-Medium.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/dist/fonts/roboto/Roboto-Regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/dist/fonts/roboto/Roboto-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/dist/fonts/roboto/Roboto-Regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/dist/fonts/roboto/Roboto-Regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/dist/fonts/roboto/Roboto-Thin.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/dist/fonts/roboto/Roboto-Thin.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/dist/fonts/roboto/Roboto-Thin.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/dist/fonts/roboto/Roboto-Thin.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/dist/js/materialize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/dist/js/materialize.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/extras/noUiSlider/nouislider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/extras/noUiSlider/nouislider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/extras/noUiSlider/nouislider.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/fonts/roboto/Roboto-Bold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/fonts/roboto/Roboto-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/fonts/roboto/Roboto-Bold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/fonts/roboto/Roboto-Bold.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/fonts/roboto/Roboto-Light.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/fonts/roboto/Roboto-Light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/fonts/roboto/Roboto-Light.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/fonts/roboto/Roboto-Light.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/fonts/roboto/Roboto-Medium.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/fonts/roboto/Roboto-Medium.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/fonts/roboto/Roboto-Medium.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/fonts/roboto/Roboto-Medium.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/fonts/roboto/Roboto-Regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/fonts/roboto/Roboto-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/fonts/roboto/Roboto-Regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/fonts/roboto/Roboto-Regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/fonts/roboto/Roboto-Thin.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/fonts/roboto/Roboto-Thin.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/fonts/roboto/Roboto-Thin.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/fonts/roboto/Roboto-Thin.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/animation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/buttons.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/cards.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/character_counter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/chips.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/collapsible.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/date_picker/picker.date.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/date_picker/picker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/forms.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/global.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/hammer.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/initial.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/jquery.easing.1.3.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/jquery.hammer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/jquery.timeago.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/leanModal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/materialbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/parallax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/pushpin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/scrollFire.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/sideNav.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/slider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/tabs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/toasts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/transitions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/velocity.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/js/waves.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/package.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/_buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/_cards.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/_carousel.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/_chips.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/_collapsible.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/_color.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/_dropdown.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/_global.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/_icons-material-design.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/_materialbox.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/_modal.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/_navbar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/_normalize.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/_prefixer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/_preloader.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/_roboto.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/_sideNav.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/_slider.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/_table_of_contents.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/_tabs.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/_toast.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/_tooltip.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/_typography.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/_waves.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/date_picker/_default.date.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/date_picker/_default.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/date_picker/_default.time.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/forms/_checkboxes.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/forms/_file-input.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/forms/_forms.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/forms/_input-fields.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/forms/_radio-buttons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/forms/_range.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/forms/_select.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/components/forms/_switches.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/sass/materialize.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/templates/masonry-template/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/templates/masonry-template/background1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/templates/masonry-template/background2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/templates/masonry-template/background3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/templates/masonry-template/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/templates/masonry-template/js/init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/templates/masonry-template/js/masonry.pkgd.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/templates/parallax-template/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/templates/parallax-template/background1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/templates/parallax-template/background2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/templates/parallax-template/background3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/templates/parallax-template/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/templates/parallax-template/js/init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/templates/starter-template/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/templates/starter-template/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/templates/starter-template/js/init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/tests/spec/cards/cardsSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/tests/spec/collapsible/collapsibleSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/tests/spec/helper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/tests/spec/scrollFire/scrollFireSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/tests/spec/select/selectSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/tests/spec/tabs/tabsSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/tests/spec/toast/toastSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/src/main/webapp/libs/bower_components/materialize/tests/spec/tooltip/tooltipSpec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/api/target/classes/main/webapp/js/controllers/loginCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/main/webapp/js/controllers/loginCtrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/js/controllers/loginCtrl.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/artifacts/api/api.war" afterPath="$PROJECT_DIR$/api/target/artifacts/api/api.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/classes/org/api/bo/Prospect.class" afterPath="$PROJECT_DIR$/api/target/classes/org/api/bo/Prospect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/classes/org/api/bo/User.class" afterPath="$PROJECT_DIR$/api/target/classes/org/api/bo/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/classes/org/api/dto/ProspectDTO.class" afterPath="$PROJECT_DIR$/api/target/classes/org/api/dto/ProspectDTO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/classes/org/api/manager/AuthentificationManager.class" afterPath="$PROJECT_DIR$/api/target/classes/org/api/manager/AuthentificationManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/classes/org/api/manager/ProspectManager.class" afterPath="$PROJECT_DIR$/api/target/classes/org/api/manager/ProspectManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/classes/org/api/service/LoginService.class" afterPath="$PROJECT_DIR$/api/target/classes/org/api/service/LoginService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/org/api/bo/Prospect.class" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/org/api/bo/Prospect.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/org/api/bo/User.class" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/org/api/bo/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/org/api/dto/ProspectDTO.class" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/org/api/dto/ProspectDTO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/org/api/manager/AuthentificationManager.class" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/org/api/manager/AuthentificationManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/org/api/manager/ProspectManager.class" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/org/api/manager/ProspectManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/org/api/service/LoginService.class" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/org/api/service/LoginService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_javax_el_api_3_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_javax_el_api_3_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_enterprise_cdi_api_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_enterprise_cdi_api_1_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_interceptor_javax_interceptor_api_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_interceptor_javax_interceptor_api_1_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_json_javax_json_api_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_json_javax_json_api_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_jcip_jcip_annotations_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_3_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_3_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_4_GA.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_4_GA.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jaxrs_3_0_19_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_resteasy_resteasy_jaxrs_3_0_19_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_annotation_jboss_annotations_api_1_2_spec_1_0_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_annotation_jboss_annotations_api_1_2_spec_1_0_0_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_ws_rs_jboss_jaxrs_api_2_0_spec_1_0_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_ws_rs_jboss_jaxrs_api_2_0_spec_1_0_0_Final.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20090211.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20090211.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/org/api/bo/Prospect.java" afterPath="$PROJECT_DIR$/api/src/main/java/org/api/bo/Prospect.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/org/api/bo/User.java" afterPath="$PROJECT_DIR$/api/src/main/java/org/api/bo/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/org/api/dto/ProspectDTO.java" afterPath="$PROJECT_DIR$/api/src/main/java/org/api/dto/ProspectDTO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/org/api/manager/AuthentificationManager.java" afterPath="$PROJECT_DIR$/api/src/main/java/org/api/manager/AuthentificationManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/org/api/manager/ProspectManager.java" afterPath="$PROJECT_DIR$/api/src/main/java/org/api/manager/ProspectManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/java/org/api/service/LoginService.java" afterPath="$PROJECT_DIR$/api/src/main/java/org/api/service/LoginService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/webapp/css/style.css" afterPath="$PROJECT_DIR$/api/src/main/webapp/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/api/src/main/webapp/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/webapp/js/controllers/dashboardCtrl.js" afterPath="$PROJECT_DIR$/api/src/main/webapp/js/controllers/dashboardCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/webapp/js/controllers/mainCtrl.js" afterPath="$PROJECT_DIR$/api/src/main/webapp/js/controllers/mainCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/webapp/js/controllers/newProspectCtrl.js" afterPath="$PROJECT_DIR$/api/src/main/webapp/js/controllers/newProspectCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/webapp/js/main.js" afterPath="$PROJECT_DIR$/api/src/main/webapp/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/webapp/js/services/loginSrv.js" afterPath="$PROJECT_DIR$/api/src/main/webapp/js/services/loginSrv.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/webapp/templates/dashboard.html" afterPath="$PROJECT_DIR$/api/src/main/webapp/templates/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/webapp/templates/detail.html" afterPath="$PROJECT_DIR$/api/src/main/webapp/templates/detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/webapp/templates/login.html" afterPath="$PROJECT_DIR$/api/src/main/webapp/templates/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/webapp/templates/test.html" afterPath="$PROJECT_DIR$/api/src/main/webapp/templates/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/classes/main/webapp/css/style.css" afterPath="$PROJECT_DIR$/api/target/classes/main/webapp/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/classes/main/webapp/index.html" afterPath="$PROJECT_DIR$/api/target/classes/main/webapp/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/classes/main/webapp/js/controllers/dashboardCtrl.js" afterPath="$PROJECT_DIR$/api/target/classes/main/webapp/js/controllers/dashboardCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/classes/main/webapp/js/controllers/mainCtrl.js" afterPath="$PROJECT_DIR$/api/target/classes/main/webapp/js/controllers/mainCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/classes/main/webapp/js/controllers/newProspectCtrl.js" afterPath="$PROJECT_DIR$/api/target/classes/main/webapp/js/controllers/newProspectCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/classes/main/webapp/js/main.js" afterPath="$PROJECT_DIR$/api/target/classes/main/webapp/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/classes/main/webapp/js/services/loginSrv.js" afterPath="$PROJECT_DIR$/api/target/classes/main/webapp/js/services/loginSrv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/classes/main/webapp/libs/bower_components/materialize/.bower.json" afterPath="$PROJECT_DIR$/api/target/classes/main/webapp/libs/bower_components/materialize/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/classes/main/webapp/templates/dashboard.html" afterPath="$PROJECT_DIR$/api/target/classes/main/webapp/templates/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/classes/main/webapp/templates/detail.html" afterPath="$PROJECT_DIR$/api/target/classes/main/webapp/templates/detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/classes/main/webapp/templates/login.html" afterPath="$PROJECT_DIR$/api/target/classes/main/webapp/templates/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/classes/main/webapp/templates/test.html" afterPath="$PROJECT_DIR$/api/target/classes/main/webapp/templates/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/src/main/webapp/templates/header.html" afterPath="$PROJECT_DIR$/api/src/main/webapp/templates/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/target/classes/main/webapp/libs/bower_components/angular-cookies.min.js" afterPath="$PROJECT_DIR$/api/target/classes/main/webapp/libs/bower_components/angular-cookies.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/main/webapp/css/style.css" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/main/webapp/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/main/webapp/index.html" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/main/webapp/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/main/webapp/js/controllers/dashboardCtrl.js" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/main/webapp/js/controllers/dashboardCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/main/webapp/js/controllers/mainCtrl.js" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/main/webapp/js/controllers/mainCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/main/webapp/js/controllers/newProspectCtrl.js" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/main/webapp/js/controllers/newProspectCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/main/webapp/js/main.js" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/main/webapp/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/main/webapp/js/services/loginSrv.js" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/main/webapp/js/services/loginSrv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/main/webapp/libs/bower_components/materialize/.bower.json" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/main/webapp/libs/bower_components/materialize/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/main/webapp/templates/dashboard.html" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/main/webapp/templates/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/main/webapp/templates/detail.html" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/main/webapp/templates/detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/main/webapp/templates/login.html" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/main/webapp/templates/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/main/webapp/templates/test.html" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/main/webapp/templates/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/css/style.css" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/index.html" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/js/controllers/dashboardCtrl.js" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/js/controllers/dashboardCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/js/controllers/mainCtrl.js" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/js/controllers/mainCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/js/controllers/newProspectCtrl.js" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/js/controllers/newProspectCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/js/main.js" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/js/services/loginSrv.js" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/js/services/loginSrv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/libs/bower_components/materialize/.bower.json" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/libs/bower_components/materialize/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/templates/dashboard.html" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/templates/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/templates/detail.html" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/templates/detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/templates/login.html" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/templates/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/templates/test.html" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/templates/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/main/webapp/libs/bower_components/angular-cookies.min.js" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/WEB-INF/classes/main/webapp/libs/bower_components/angular-cookies.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/libs/bower_components/angular-cookies.min.js" afterPath="$PROJECT_DIR$/out/artifacts/api_Web_exploded/libs/bower_components/angular-cookies.min.js" />
     </list>
     <ignored path="TestApi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -272,34 +35,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProspectManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/src/main/java/org/api/manager/ProspectManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="45" column="118" selection-start-line="45" selection-start-column="118" selection-end-line="45" selection-end-column="118" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProspectService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/src/main/java/org/api/service/ProspectService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="42" column="78" selection-start-line="42" selection-start-column="78" selection-end-line="42" selection-end-column="78" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Prospect.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/src/main/java/org/api/bo/Prospect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="118" column="56" selection-start-line="118" selection-start-column="56" selection-end-line="118" selection-end-column="56" />
+            <state relative-caret-position="1802">
+              <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
               <folding>
-                <element signature="e#749#750#0" expanded="true" />
-                <element signature="e#797#798#0" expanded="true" />
+                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -308,18 +50,32 @@
       <file leaf-file-name="SelectOption.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/src/main/java/org/api/bo/SelectOption.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="442">
               <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1123#1124#0" expanded="false" />
+                <element signature="e#1158#1159#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SelectOptionDTO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/src/main/java/org/api/dto/SelectOptionDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SelectOptionDTO.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api/src/main/java/org/api/dto/SelectOptionDTO.java">
+      <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/src/main/webapp/templates/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="206">
+              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -328,21 +84,40 @@
       <file leaf-file-name="Token.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/src/main/java/org/api/bo/Token.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="85">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#522#523#0" expanded="false" />
+                <element signature="e#548#549#0" expanded="false" />
+                <element signature="e#582#583#0" expanded="false" />
+                <element signature="e#607#608#0" expanded="false" />
+                <element signature="e#637#638#0" expanded="false" />
+                <element signature="e#667#668#0" expanded="false" />
+                <element signature="e#709#710#0" expanded="false" />
+                <element signature="e#742#743#0" expanded="false" />
+                <element signature="e#774#775#0" expanded="false" />
+                <element signature="e#803#804#0" expanded="false" />
+                <element signature="e#846#847#0" expanded="false" />
+                <element signature="e#877#878#0" expanded="false" />
+                <element signature="e#915#916#0" expanded="false" />
+                <element signature="e#943#944#0" expanded="false" />
+                <element signature="e#991#992#0" expanded="false" />
+                <element signature="e#1020#1021#0" expanded="false" />
+                <element signature="e#1055#1056#0" expanded="false" />
+                <element signature="e#1089#1090#0" expanded="false" />
+                <element signature="e#1140#1141#0" expanded="false" />
+                <element signature="e#1181#1182#0" expanded="false" />
+                <element signature="e#1214#1215#0" expanded="false" />
+                <element signature="e#1246#1247#0" expanded="false" />
+                <element signature="e#1293#1294#0" expanded="false" />
+                <element signature="e#1330#1331#0" expanded="false" />
+                <element signature="e#1367#1368#0" expanded="false" />
+                <element signature="e#1403#1404#0" expanded="false" />
+                <element signature="e#1458#1459#0" expanded="false" />
+                <element signature="e#1503#1504#0" expanded="false" />
+                <element signature="e#1538#1539#0" expanded="false" />
+                <element signature="e#1607#1608#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Manager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/src/main/java/org/api/manager/Manager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -350,8 +125,8 @@
       <file leaf-file-name="ProspectDTO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/src/main/java/org/api/dto/ProspectDTO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="306">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -360,18 +135,38 @@
       <file leaf-file-name="UserDTO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/src/main/java/org/api/dto/UserDTO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="187">
               <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/src/main/webapp/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+            <state relative-caret-position="-51">
+              <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/src/main/webapp/templates/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/src/main/webapp/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -445,27 +240,28 @@
         <option value="$PROJECT_DIR$/api/src/main/webapp/js/services/loginSrv.js" />
         <option value="$PROJECT_DIR$/api/src/main/java/org/api/bo/User.java" />
         <option value="$PROJECT_DIR$/api/src/main/webapp/js/controllers/dashboardCtrl.js" />
-        <option value="$PROJECT_DIR$/api/src/main/webapp/templates/header.html" />
         <option value="$PROJECT_DIR$/api/src/main/webapp/js/main.js" />
         <option value="$PROJECT_DIR$/api/src/main/webapp/templates/test.html" />
         <option value="$PROJECT_DIR$/api/src/main/webapp/js/controllers/newProspectCtrl.js" />
-        <option value="$PROJECT_DIR$/api/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/api/src/main/webapp/templates/userDetail.html" />
         <option value="$PROJECT_DIR$/api/src/main/webapp/templates/detail.html" />
-        <option value="$PROJECT_DIR$/api/src/main/webapp/templates/dashboard.html" />
         <option value="$PROJECT_DIR$/api/src/main/java/org/api/manager/ProspectManager.java" />
-        <option value="$PROJECT_DIR$/api/src/main/webapp/css/style.css" />
         <option value="$PROJECT_DIR$/api/src/main/java/org/api/bo/SelectOption.java" />
         <option value="$PROJECT_DIR$/api/src/main/java/org/api/dto/SelectOptionDTO.java" />
         <option value="$PROJECT_DIR$/api/src/main/java/org/api/bo/Prospect.java" />
         <option value="$PROJECT_DIR$/api/src/main/java/org/api/dto/ProspectDTO.java" />
+        <option value="$PROJECT_DIR$/api/src/main/webapp/templates/dashboard.html" />
+        <option value="$PROJECT_DIR$/api/src/main/webapp/templates/header.html" />
+        <option value="$PROJECT_DIR$/api/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/api/src/main/webapp/css/style.css" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -526,8 +322,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="1680" />
-    <option name="height" value="1050" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -554,42 +352,27 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TestAPI" />
+              <option name="myItemId" value="TestApi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TestAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestAPI" />
+              <option name="myItemId" value="TestApi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TestAPI" />
+              <option name="myItemId" value="TestApi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -611,7 +394,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TestAPI" />
+              <option name="myItemId" value="TestApi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -637,119 +420,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TestAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bower_components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestAPI" />
+              <option name="myItemId" value="TestApi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -775,7 +446,25 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TestAPI" />
+              <option name="myItemId" value="TestApi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestApi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -801,97 +490,7 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TestAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestAPI" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enumeration" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TestAPI" />
+              <option name="myItemId" value="TestApi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -921,7 +520,37 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TestAPI" />
+              <option name="myItemId" value="TestApi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestApi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -951,8 +580,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1184,6 +814,7 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
@@ -1292,9 +923,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
-    </configuration>
     <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1371,19 +999,6 @@
       <scripts />
       <node-interpreter value="project" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
       <method />
     </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
@@ -1489,14 +1104,15 @@
       <workItem from="1470638928881" duration="5090000" />
       <workItem from="1470653753567" duration="87000" />
       <workItem from="1470653860075" duration="21530000" />
+      <workItem from="1470810979158" duration="3507000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87806000" />
+    <option name="totallyTimeSpent" value="91313000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1510,18 +1126,18 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18622951" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35714287" sideWeight="0.7777778" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39838493" sideWeight="0.7777778" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32040817" sideWeight="0.495116" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17826618" sideWeight="0.49103138" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20773639" sideWeight="0.49103138" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5089686" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5089686" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39591837" sideWeight="0.497558" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39518073" sideWeight="0.497558" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1680,7 +1296,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1688,7 +1303,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1696,7 +1310,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1704,7 +1317,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1712,7 +1324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="158" column="0" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1720,7 +1331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1728,7 +1338,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1736,36 +1345,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
           <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/webapp/js/controllers/loginCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="8" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/webapp/js/controllers/loginCtrl.js" />
     <entry file="file://$PROJECT_DIR$/api/src/main/java/org/api/bo/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="999">
           <caret line="169" column="83" selection-start-line="169" selection-start-column="83" selection-end-line="169" selection-end-column="83" />
-          <folding>
-            <element signature="e#1721#1722#0" expanded="false" />
-            <element signature="e#1754#1755#0" expanded="false" />
-            <element signature="e#2803#2804#0" expanded="false" />
-            <element signature="e#2835#2836#0" expanded="false" />
-            <element signature="e#2882#2883#0" expanded="false" />
-            <element signature="e#2919#2920#0" expanded="false" />
-            <element signature="e#2966#2967#0" expanded="false" />
-            <element signature="e#3001#3002#0" expanded="false" />
-            <element signature="e#3065#3066#0" expanded="false" />
-            <element signature="e#3108#3109#0" expanded="false" />
-            <element signature="e#5692#5693#0" expanded="false" />
-            <element signature="e#5738#5739#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1773,9 +1360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1783,9 +1367,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#45#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1793,7 +1374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1801,7 +1381,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1809,7 +1388,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1817,7 +1395,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1825,7 +1402,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-510">
           <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1833,7 +1409,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1841,7 +1416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="14" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1849,15 +1423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="90" selection-start-line="6" selection-start-column="90" selection-end-line="6" selection-end-column="90" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1865,15 +1430,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/webapp/templates/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1881,7 +1437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-45">
           <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1889,15 +1444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-975">
           <caret line="3" column="106" selection-start-line="3" selection-start-column="106" selection-end-line="3" selection-end-column="106" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/webapp/templates/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="26" column="86" selection-start-line="26" selection-start-column="86" selection-end-line="26" selection-end-column="86" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1905,7 +1451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1913,13 +1458,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/src/main/java/org/api/manager/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="527">
           <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
         </state>
@@ -1927,15 +1471,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/src/main/java/org/api/manager/ProspectManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="45" column="118" selection-start-line="45" selection-start-column="118" selection-end-line="45" selection-end-column="118" />
+        <state relative-caret-position="612">
+          <caret line="45" column="85" selection-start-line="45" selection-start-column="85" selection-end-line="45" selection-end-column="85" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/src/main/java/org/api/service/ProspectService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
+        <state relative-caret-position="527">
           <caret line="42" column="78" selection-start-line="42" selection-start-column="78" selection-end-line="42" selection-end-column="78" />
           <folding />
         </state>
@@ -1943,25 +1487,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/src/main/java/org/api/bo/Token.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="85">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#522#523#0" expanded="false" />
+            <element signature="e#548#549#0" expanded="false" />
+            <element signature="e#582#583#0" expanded="false" />
+            <element signature="e#607#608#0" expanded="false" />
+            <element signature="e#637#638#0" expanded="false" />
+            <element signature="e#667#668#0" expanded="false" />
+            <element signature="e#709#710#0" expanded="false" />
+            <element signature="e#742#743#0" expanded="false" />
+            <element signature="e#774#775#0" expanded="false" />
+            <element signature="e#803#804#0" expanded="false" />
+            <element signature="e#846#847#0" expanded="false" />
+            <element signature="e#877#878#0" expanded="false" />
+            <element signature="e#915#916#0" expanded="false" />
+            <element signature="e#943#944#0" expanded="false" />
+            <element signature="e#991#992#0" expanded="false" />
+            <element signature="e#1020#1021#0" expanded="false" />
+            <element signature="e#1055#1056#0" expanded="false" />
+            <element signature="e#1089#1090#0" expanded="false" />
+            <element signature="e#1140#1141#0" expanded="false" />
+            <element signature="e#1181#1182#0" expanded="false" />
+            <element signature="e#1214#1215#0" expanded="false" />
+            <element signature="e#1246#1247#0" expanded="false" />
+            <element signature="e#1293#1294#0" expanded="false" />
+            <element signature="e#1330#1331#0" expanded="false" />
+            <element signature="e#1367#1368#0" expanded="false" />
+            <element signature="e#1403#1404#0" expanded="false" />
+            <element signature="e#1458#1459#0" expanded="false" />
+            <element signature="e#1503#1504#0" expanded="false" />
+            <element signature="e#1538#1539#0" expanded="false" />
+            <element signature="e#1607#1608#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/webapp/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/src/main/java/org/api/dto/UserDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="187">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
@@ -1969,35 +1534,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/src/main/java/org/api/bo/Prospect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="118" column="56" selection-start-line="118" selection-start-column="56" selection-end-line="118" selection-end-column="56" />
+        <state relative-caret-position="1802">
+          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
           <folding>
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/src/main/java/org/api/bo/SelectOption.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="442">
           <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1123#1124#0" expanded="false" />
+            <element signature="e#1158#1159#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/src/main/java/org/api/dto/ProspectDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="306">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/src/main/java/org/api/dto/SelectOptionDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="136">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/webapp/templates/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/webapp/templates/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/webapp/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
           <folding />
         </state>
       </provider>

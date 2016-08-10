@@ -1,5 +1,4 @@
 header, .main, footer {
-    padding-left: 300px;
     padding-top:4em;
 }
 
@@ -9,13 +8,21 @@ header, .main, footer {
     }
 }
 
-.mainContainer{
-    margin-left: 300px;
-    margin-top: 60px;
+.main{
+    margin-left: 150px;
+}
+
+.container-fluid{
+    width: 90%;
+    margin: auto;
 }
 
 .side-nav.fixed{
     margin-top: 64px;
+}
+
+.side-nav{
+    width: 150px;
 }
 
 nav{
