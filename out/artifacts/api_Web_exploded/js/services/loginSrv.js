@@ -1,4 +1,4 @@
-mainApp.service('LoginSrv', function ($http, $rootScope, $location, $cookies, $route, $q, RqstSrv) {
+mainApp.service('LoginSrv', function ($http, $rootScope, $cookies, $route, $q, RqstSrv,$state) {
 
     var loginSrv = {};
 
@@ -33,7 +33,7 @@ mainApp.service('LoginSrv', function ($http, $rootScope, $location, $cookies, $r
         authenticate(credentials, function(data) {
             RqstSrv.get("/users/fromAuthToken/" + $rootScope.authToken, function(data) {
                 $rootScope.connectedUser = data;
-                $location.path("/dashboard/")
+                $state.go('dashboard');
                 deferred.resolve($rootScope.authToken);
                 return deferred.promise;
             }, function(data) {
@@ -49,8 +49,8 @@ mainApp.service('LoginSrv', function ($http, $rootScope, $location, $cookies, $r
     /* Méthode de logout */
     loginSrv.logout = function() {
         RqstSrv.get("/session/logout", eraseSession, eraseSession);
-        $location.path("/");
-    }
+        $state.go('login');
+    };
 
     function eraseSession() {
         $rootScope.connectedUser = null;

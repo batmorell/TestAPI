@@ -27,7 +27,7 @@ public class LoginService extends ApiService {
 
     @POST
     @Path("/login")
-    public Response loginRecruiter(@Context HttpHeaders pHeaders, LoginRequestDTO loginRequest) throws JSONException {
+    public Response login(@Context HttpHeaders pHeaders, LoginRequestDTO loginRequest) throws JSONException {
         try {
             String authToken = mLoginManager.logUser(loginRequest.email, loginRequest.password);
             JSONObject responseJSON = new JSONObject();

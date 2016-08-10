@@ -5,6 +5,7 @@ import org.json.JSONException;
 import org.api.utils.CustomJSONObject;
 import org.api.utils.JSONAble;
 import org.api.utils.TechniqueException;
+import org.json.JSONObject;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -23,7 +24,11 @@ public class Prospect implements JSONAble {
     public String origin;
     public String description;
     public String other;
-    public String statut;
+    public SelectOption statut;
+
+    public Prospect(){
+        this.statut = new SelectOption();
+    }
 
     public int mapOut(PreparedStatement pPreparedStatement) throws SQLException {
         int lIterator = 1;
@@ -38,7 +43,7 @@ public class Prospect implements JSONAble {
         pPreparedStatement.setString(lIterator++, this.origin);
         pPreparedStatement.setString(lIterator++, this.description);
         pPreparedStatement.setString(lIterator++, this.other);
-        pPreparedStatement.setString(lIterator++, this.statut);
+        pPreparedStatement.setInt(lIterator++, this.statut.id);
 
         return lIterator;
     }
@@ -62,7 +67,8 @@ public class Prospect implements JSONAble {
         lProspect.origin = pResultSet.getString("origin");
         lProspect.description = pResultSet.getString("description");
         lProspect.other = pResultSet.getString("other");
-        lProspect.statut = pResultSet.getString("statut");
+        lProspect.statut.id = pResultSet.getInt("statuts.id");
+        lProspect.statut.value = pResultSet.getString("value");
 
         return lProspect;
     }
@@ -109,7 +115,8 @@ public class Prospect implements JSONAble {
         lProspect.origin = pProspectDTO.provenance;
         lProspect.description = pProspectDTO.description;
         lProspect.other = pProspectDTO.autre;
-        lProspect.statut = pProspectDTO.statut;
+        lProspect.statut.id = pProspectDTO.statut.id;
+        lProspect.statut.value = pProspectDTO.statut.value;
         return lProspect;
     }
 

@@ -4,6 +4,7 @@
 mainApp.controller('newProspectCtrl', function ($scope, RqstSrv) {
 
     $scope.editMode = true;
+    $scope.showTabs = true;
     
 
     $scope.edit = function(){

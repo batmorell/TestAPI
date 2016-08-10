@@ -4,6 +4,8 @@ import java.io.Serializable;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Date;
+
+import org.api.enumeration.AccessLevelEnum;
 import org.json.JSONException;
 
 import org.api.utils.CustomJSONObject;
@@ -25,6 +27,7 @@ public class User implements Serializable, JSONAble {
     protected boolean mActive;
     protected Date mTsCreation;
     protected Date mTsUpdate;
+    protected AccessLevelEnum mAccessLevel;
 
     public User() {
         super();
@@ -39,6 +42,7 @@ public class User implements Serializable, JSONAble {
         this.mActive = pUser.isActive();
         this.mTsCreation = pUser.getTsCreation();
         this.mTsUpdate = pUser.getTsUpdate();
+        this.mAccessLevel = pUser.getAccessLevel();
     }
 
     public int getId() {
@@ -128,6 +132,14 @@ public class User implements Serializable, JSONAble {
         mTsUpdate = pTsUpdate;
     }
 
+    public AccessLevelEnum getAccessLevel() {
+        return mAccessLevel;
+    }
+
+    public void setAccessLevel(AccessLevelEnum pAccessLevel) {
+        mAccessLevel = pAccessLevel;
+    }
+
     public static User mapIn(ResultSet pResultSet) throws TechniqueException, SQLException {
         return mapIn(pResultSet, "");
     }
@@ -155,6 +167,7 @@ public class User implements Serializable, JSONAble {
         lUser.setActive(pResultSet.getBoolean("active"));
         lUser.setTsUpdate(Utils.convertTimestampToDate(pResultSet.getTimestamp("ts_update")));
         lUser.setTsCreation(Utils.convertTimestampToDate(pResultSet.getTimestamp("ts_creation")));
+        lUser.setAccessLevel(AccessLevelEnum.fromString(pResultSet.getString("access_level")));
         return lUser;
     }
 
@@ -171,6 +184,7 @@ public class User implements Serializable, JSONAble {
             lJSONUser.put("active", mActive);
             lJSONUser.put("tsCreation", mTsCreation);
             lJSONUser.put("tsUpdate", mTsUpdate);
+            lJSONUser.put("accessLevel", mAccessLevel);
         } catch (JSONException ex) {
             ex.printStackTrace();
             throw new TechniqueException();

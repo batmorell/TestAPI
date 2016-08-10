@@ -66,11 +66,11 @@ public class AuthentificationManager extends Manager {
     }
 
     private void cleanSessions() throws TechniqueException {
-        update("DELETE FROM user_session WHERE (EXTRACT(EPOCH FROM current_timestamp - last_seen)/3600) > ?;",
+        /*update("DELETE FROM user_session WHERE (EXTRACT(EPOCH FROM current_timestamp - last_seen)/3600) > ?;",
                 lPreparedStatement -> {
                     int lIterator = 1;
                     lPreparedStatement.setInt(lIterator++, Config.SESSION_MAX_TIME);
-                });
+                });*/
     }
 
 }

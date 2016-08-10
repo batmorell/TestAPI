@@ -9,6 +9,11 @@ header, .main, footer {
     }
 }
 
+.mainContainer{
+    margin-left: 300px;
+    margin-top: 60px;
+}
+
 .side-nav.fixed{
     margin-top: 64px;
 }
@@ -16,10 +21,41 @@ header, .main, footer {
 nav{
     z-index: 1000;
     position: fixed;
-    background-color: #3498DB;
+    background-color: rgb(15, 157, 88);
 }
 
 input:not([type]):disabled, input:not([type])[readonly="readonly"], input[type=text]:disabled, input[type=text][readonly="readonly"], input[type=password]:disabled, input[type=password][readonly="readonly"], input[type=email]:disabled, input[type=email][readonly="readonly"], input[type=url]:disabled, input[type=url][readonly="readonly"], input[type=time]:disabled, input[type=time][readonly="readonly"], input[type=date]:disabled, input[type=date][readonly="readonly"], input[type=datetime]:disabled, input[type=datetime][readonly="readonly"], input[type=datetime-local]:disabled, input[type=datetime-local][readonly="readonly"], input[type=tel]:disabled, input[type=tel][readonly="readonly"], input[type=number]:disabled, input[type=number][readonly="readonly"], input[type=search]:disabled, input[type=search][readonly="readonly"], textarea.materialize-textarea:disabled, textarea.materialize-textarea[readonly="readonly"]{
     color: rgba(0, 0, 0, 0.90);
     border-bottom: 1px dotted rgba(0, 0, 0, 0.26)
+}
+
+.tabs .tab a{
+    color: #3498db;
+}
+
+th .statut{
+    padding: 1em;
+}
+
+tbody tr:hover{
+    background-color: #ececec;
+}
+
+th .Pas {
+    background-color: #a21318;
+    color: white;
+}
+
+th .contacter{
+    background-color: #00b0ff;
+    color: white;
+}
+
+th .Rendez-vous{
+    background-color: #00C853;
+    color: white;
+}
+
+.tabs .tab a:hover{
+    color: #5ba3d4;
 }

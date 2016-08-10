@@ -23,7 +23,7 @@ public class ProspectManager extends Manager {
     }
 
     public List<Prospect> getListOfProspects() throws TechniqueException{
-        return select("SELECT * FROM prospects",
+        return select("SELECT * FROM prospects LEFT JOIN (statuts) ON (statuts.id = prospects.statut)",
                 null , lResultSet -> {
                         List<Prospect> lProspects = new ArrayList<>();
                         while (lResultSet.next()) {
@@ -43,7 +43,7 @@ public class ProspectManager extends Manager {
     }
 
     public Prospect getProspectFromId(int pId) throws TechniqueException {
-        return select("SELECT * FROM prospects WHERE id = ?", lPreparedStatement -> {
+        return select("SELECT * FROM prospects LEFT JOIN (statuts) ON (statuts.id = prospects.statut) WHERE prospects.id = ?", lPreparedStatement -> {
             lPreparedStatement.setInt(1, pId);
         }, lResultSet -> {
             if (lResultSet.next()) {

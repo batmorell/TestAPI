@@ -1,38 +1,40 @@
-<div class="col-xs-12">
-    <h3>Dashboard</h3>
-    <div class="card">
-        <div class="container-fluid">
-            <div class="row">
-                <h4>Liste des prospects</h4>
-                <button class="btn btn-success" ui-sref="newProspect">Nouveau</button>
-            </div>
-            <div class="row">
-                <div class="col-xs-12">
-                    <table class="table table-hover">
-                        <thead>
-                        <tr>
-                            <th>#</th>
-                            <th>Entreprise</th>
-                            <th>Nom</th>
-                            <th>Statut</th>
-                            <th>Actions</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr data-ng-repeat="prospect in prospects">
-                            <th>{{prospect.id}}</th>
-                            <th>{{prospect.entreprise}}</th>
-                            <th>{{prospect.nom}}</th>
-                            <th>{{prospect.statut}}</th>
-                            <th><a ui-sref="detail({id:prospect.id})"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span></a></th>
-                        </tr>
-                        </tbody>
-                    </table>
+<div class="row">
+    <div class="col-xs-12">
+        <h3>Dashboard</h3>
+        <div class="card">
+            <div class="container-fluid">
+                <div class="row">
+                    <h4>Liste des prospects</h4>
+                    <button class="btn btn-success" ui-sref="newProspect">Nouveau</button>
                 </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Entreprise</th>
+                                    <th>Nom</th>
+                                    <th>Statut</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr data-ng-repeat="prospect in prospects" data-ng-click="goToDetail(prospect.id)">
+                                    <th>{{prospect.id}}</th>
+                                    <th>{{prospect.entreprise}}</th>
+                                    <th>{{prospect.nom}}</th>
+                                    <th ><span class="{{prospect.statut.value}} statut">{{prospect.statut.value}}</span></th>
+                                    <th><a ui-sref="detail({id:prospect.id})"><span class="glyphicon glyphicon-info-sign"
+                                                                                    aria-hidden="true"></span></a></th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <pre>{{prospects}}</pre>
             </div>
-            <pre>{{prospects}}</pre>
         </div>
-
     </div>
-
+    <button data-ng-click="change()" class="btn btn-primary">Redirige</button>
 </div>

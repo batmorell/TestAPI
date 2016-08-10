@@ -1,6 +1,8 @@
 package org.api.dto;
 
 
+import org.api.dto.SelectOptionDTO;
+
 public class ProspectDTO {
     public int id;
     public String nom;
@@ -14,5 +16,5 @@ public class ProspectDTO {
     public String provenance;
     public String description;
     public String autre;
-    public String statut;
+    public SelectOptionDTO statut;
 }

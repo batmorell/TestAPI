@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="row">
+        <h4>Information sur le contact</h4>
+        <form>
+            <div class="input-field col s6">
+                <input placeholder="Prénom" id="first_name" type="text" class="validate"
+                       ng-model="prospect.prenom" disabled>
+                <label class="active" for="first_name">Nom</label>
+            </div>
+            <div class="input-field col s6">
+                <input placeholder="Nom" id="last_name" type="text" class="validate" ng-model="prospect.nom"
+                       disabled>
+                <label class="active" for="last_name">Prénom</label>
+            </div>
+            <div class="input-field col s6">
+                <input placeholder="Fonction de l'interlocuteur" id="function" type="text" class="validate"
+                       ng-model="prospect.fonction" disabled>
+                <label class="active" for="function">Fonction</label>
+            </div>
+            <div class="input-field col s6">
+                <input placeholder="Téléphone de l'interlocuteur" id="phone" type="text" class="validate"
+                       ng-model="prospect.telephone" disabled>
+                <label class="active" for="phone">Téléphone</label>
+            </div>
+            <div class="input-field col s6">
+                <input placeholder="Email" id="email" type="email" class="validate" ng-model="prospect.email"
+                       disabled>
+                <label class="active" for="email">Email</label>
+            </div>
+        </form>
+    </div>
+</div>

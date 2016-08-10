@@ -1,14 +1,17 @@
-<div class="card col-xs-4 col-xs-offset-4">
-    <form>
-        <div class="input-field col s6">
-            <input placeholder="Email" id="mail" type="text" class="validate" ng-model="user.mail">
-            <label class="active" for="mail">Email</label>
-        </div>
-        <div class="input-field col s6">
-            <input placeholder="Mot de passe" id="password" type="password" class="validate" ng-model="user.password">
-            <label class="active" for="password">Mot de passe</label>
-        </div>
-        <button class="btn btn-success" data-ng-click="login(user.mail,user.password)">Se connecter</button>
-    </form>
-    <pre>{{user}}</pre>
+<div class="col-xs-4 col-xs-offset-4">
+    <div class="card">
+        <form>
+            <div class="input-field col s12">
+                <input placeholder="Email" id="mail" type="text" class="validate" ng-model="user.mail">
+                <label class="active" for="mail">Email</label>
+            </div>
+            <div class="input-field col s12">
+                <input placeholder="Mot de passe" id="password" type="password" class="validate" ng-model="user.password">
+                <label class="active" for="password">Mot de passe</label>
+            </div>
+            <button class="btn btn-success" data-ng-click="login(user.mail,user.password)">Se connecter</button>
+        </form>
+        <pre>{{user}}</pre>
+    </div>
+
 </div>

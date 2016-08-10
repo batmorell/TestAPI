@@ -2,44 +2,37 @@
 <html>
 <head>
 	<meta charset="ISO-8859-1">
-	<link href="./libs/bower_components/bootstrap/dist/css/bootstrap.min.css"
-		  rel="stylesheet" >
 	<link type="text/css" rel="stylesheet" href="./libs/bower_components/materialize/dist/css/materialize.min.css"  media="screen,projection"/>
 	<link type="text/css" rel="stylesheet" href="css/style.css"/>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>DevCO</title>
 </head>
 <body ng-app="mainApp">
 
-	<nav>
-		<div class="nav-wrapper">
-			<a ui-sref="dashboard" class="brand-logo">Logo</a>
-			<ul id="nav-mobile" class="right hide-on-med-and-down">
+	<div ui-view="header" class="navbar-fixed">
 
-			</ul>
-		</div>
-	</nav>
+	</div>
 
-	<ul id="slide-out" class="side-nav fixed">
-		<li><a ui-sref="dashboard">Dashboard</a></li>
-		<li><a ui-sref="test">Test</a></li>
-	</ul>
+	<div ui-view="slider">
 
-	<div class="container-fluid main" >
 
-		<div class="row" >
+	</div>
 
-			<div ui-view="main">
+	<div class="main" data-ng-controller="mainCtrl">
+
+			<div class="" ui-view="main">
 			</div>
-
-		</div >
-	</div >
+	</div>
 
 
 	<script type="text/javascript" src="./libs/bower_components/jquery/dist/jquery.min.js"></script>
 	<script type="text/javascript" src="./libs/bower_components/angular/angular.min.js" ></script >
 	<script type="text/javascript" src="./libs/bower_components/angular-ui-router/release/angular-ui-router.min.js" ></script >
 	<script type="text/javascript" src="./libs/bower_components/materialize/dist/js/materialize.min.js"></script>
+	<script type="text/javascript" src="./libs/bower_components/angular-materialize/src/angular-materialize.js"></script>
+	<script type="text/javascript" src="./libs/bower_components/angular-cookies.min.js"></script>
+	<script type="text/javascript" src="./libs/bower_components/angular-route.min.js"></script>
 
 	<script src="./js/main.js" ></script >
 
@@ -47,7 +40,6 @@
 	<script src="js/controllers/dashboardCtrl.js"></script>
 	<script src="js/controllers/detailCtrl.js"></script>
 	<script src="js/controllers/newProspectCtrl.js"></script>
-	<script src="js/controllers/loginCtrl.js"></script>
 
 	<script src="js/services/rqstSrv.js"></script>
 	<script src="js/services/loginSrv.js"></script>
